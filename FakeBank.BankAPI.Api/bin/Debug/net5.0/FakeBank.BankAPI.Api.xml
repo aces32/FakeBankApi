@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakeBank.BankAPI.Api</name>
+    </assembly>
+    <members>
+        <member name="M:FakeBank.BankAPI.Api.Controllers.AccountController.GetAccountBalance(System.String)">
+            <summary>
+            Retrieves balances and account type for a given account
+            </summary>
+            <param name="accountNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FakeBank.BankAPI.Api.Controllers.AccountController.Create(FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreateAccountCommand)">
+            <summary>
+            Creates a new bank account for a customer, with an initial deposit amount. A single customer may have multiple bank accounts
+            </summary>
+            <param name="createAccountCommand"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FakeBank.BankAPI.Api.Controllers.TransferController.Get(System.String,System.DateTimeOffset,System.DateTimeOffset,System.Int32,System.Int32)">
+            <summary>
+            Retrieve transfer history for a given account .
+            </summary>
+            <param name="accountNumber"></param>
+            <param name="paymentStartDate"></param>
+            <param name="paymentEndDate"></param>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FakeBank.BankAPI.Api.Controllers.TransferController.Create(FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand)">
+            <summary>
+            Transfers amounts between any two accounts, including those owned by different customers.
+            </summary>
+            <param name="intraBankTransfersCommand"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

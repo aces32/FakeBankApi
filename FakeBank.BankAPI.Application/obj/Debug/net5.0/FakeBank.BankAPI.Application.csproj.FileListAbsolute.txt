@@ -1,0 +1,16 @@
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\FakeBank.BankAPI.Application.deps.json
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\FakeBank.BankAPI.Application.dll
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\ref\FakeBank.BankAPI.Application.dll
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\FakeBank.BankAPI.Application.pdb
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\FakeBank.BankAPI.Domain.dll
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\FakeBank.BankAPI.Domain.pdb
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.csproj.AssemblyReference.cache
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.AssemblyInfoInputs.cache
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.AssemblyInfo.cs
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.csproj.CopyComplete
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.dll
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\ref\FakeBank.BankAPI.Application.dll
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\obj\Debug\net5.0\FakeBank.BankAPI.Application.pdb
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\FakeBank.BankAPI.Application\bin\Debug\net5.0\FakeBank.BankAPI.Application.xml

@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FakeBank.BankAPI.Application</name>
+    </assembly>
+    <members>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreateAccountCommand.CustomerID">
+            <summary>
+            Customer ID to be specified
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreateAccountCommand.InitialDepAmount">
+            <summary>
+            Initial Deposit Amount
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreateAccountCommand.AccountType">
+            <summary>
+            Account type can be savings or currents
+            </summary>
+        </member>
+        <member name="M:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreateAccountCommandHandler.Handle(FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreateAccountCommand,System.Threading.CancellationToken)">
+            <summary>
+            An handler to create a new bank account for a customer, this is used by AccountController with the aid of Mediatr
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreatedAccountViewModel.AccountNumber">
+            <summary>
+            Account Number Created
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreatedAccountViewModel.AccountType">
+            <summary>
+            Account type for the created account (can be savings or current)
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Command.CreateAccount.CreatedAccountViewModel.AccountBalance">
+            <summary>
+            Account balance for the created account
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Queries.GetAccountBalance.GetAccountBalanceQuery.AccountNumber">
+            <summary>
+            Account Number used to retreive balance
+            </summary>
+        </member>
+        <member name="M:FakeBank.BankAPI.Application.Features.Account.Queries.GetAccountBalance.GetAccountBalanceQueryHandler.Handle(FakeBank.BankAPI.Application.Features.Account.Queries.GetAccountBalance.GetAccountBalanceQuery,System.Threading.CancellationToken)">
+            <summary>
+            An handler to Retrieve balances for a given account, this is used by AccountController with the aid of Mediatr
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Queries.GetAccountBalance.GetAccountViewModel.AccountBalance">
+            <summary>
+            Account balance of the specified account number
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Account.Queries.GetAccountBalance.GetAccountViewModel.AccountType">
+            <summary>
+            Account type of the specified account number
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand.PaymentReference">
+            <summary>
+            Unique payment reference to be passed by customer
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand.TransactionAmount">
+            <summary>
+            Transaction amount to debit
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand.TransactionRemarks">
+            <summary>
+            Transaction remarks to be passed by customer
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand.AccountNumberToDebit">
+            <summary>
+            Account to be debit for transaction
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand.BeneficiaryAccountNumber">
+            <summary>
+            Beneficiary account to be credited
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand.BeneficiaryAccountName">
+            <summary>
+            Beneficiary account name
+            </summary>
+        </member>
+        <member name="M:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommandHandler.Handle(FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersCommand,System.Threading.CancellationToken)">
+            <summary>
+            Transfer between accounts Handler used by TransferController with the aid of Mediatr
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersViewModel.PaymentReference">
+            <summary>
+            Generated refrence after payment
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersViewModel.TransactionAmount">
+            <summary>
+            amount that was credited to be beneficiary
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersViewModel.TransactionRemarks">
+            <summary>
+            Remarks specified by the payment initiator
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Command.IntraBankTransfers.IntraBankTransfersViewModel.PaymentDate">
+            <summary>
+            Date of transaction payment
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQuery.AccountNumber">
+            <summary>
+            Account number used to get the transaction history
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQuery.PaymentStartDate">
+            <summary>
+            Query with a payment start date
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQuery.PaymentEndDate">
+            <summary>
+            Query with a payment end date
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQuery.Page">
+            <summary>
+            Page to be returned to the view
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQuery.Size">
+            <summary>
+            Size of the data list returns
+            </summary>
+        </member>
+        <member name="M:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQueryHandler.Handle(FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.GetTransferHistoryQuery,System.Threading.CancellationToken)">
+            <summary>
+            Transfer History Handler used by TransferController with the aid of Mediatr
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.PaymentReference">
+            <summary>
+            Generated payment reference for the transaction history
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.PaymentDate">
+            <summary>
+            Payment date of the transaction
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.TransactionAmount">
+            <summary>
+            Transaction amount initiated
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.TransactionRemarks">
+            <summary>
+            Transaction remarks passed during transaction intiation
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.BeneficiaryAccountNumber">
+            <summary>
+            beneficaiary account which got the credited amount
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.BeneficiaryAccountName">
+            <summary>
+            beneficiary account name
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.DebitCreditIndicator">
+            <summary>
+            shows if the transaction was a debit or credit
+            </summary>
+        </member>
+        <member name="P:FakeBank.BankAPI.Application.Features.Transfers.Queries.GetTransferHistory.TransferHistoryDto.AccountBalanceBeforeDebit">
+            <summary>
+            shows the account balance of the customer befor debit has occured
+            </summary>
+        </member>
+    </members>
+</doc>

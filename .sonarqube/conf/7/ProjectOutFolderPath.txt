@@ -1,0 +1,1 @@
+C:\Users\Ayo\Documents\SaltPay\saltpay-eng-c-banking-api-hukkqy\FakeBank.BankAPI\.sonarqube\out\7
