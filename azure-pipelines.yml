@@ -20,6 +20,16 @@ steps:
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: 'FakeBank.BankAPI.IntegrationTests\FakeBank.BankAPI.IntegrationTests.csproj'
+    testRunTitle: 'FakeBankIntegrationTest'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: 'FakeBank.BankAPI.UnitTests\FakeBank.BankAPI.UnitTests.csproj'
+    testRunTitle: 'FakeBankUnitTest'
 
 - task: VSBuild@1
   inputs:
@@ -28,7 +38,11 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
+- task: DotNetCoreCLI@2
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    command: 'pack'
+    packagesToPack: '**/*.csproj'
+    versioningScheme: 'byPrereleaseNumber'
+    majorVersion: '1'
+    minorVersion: '0'
+    patchVersion: '0'
