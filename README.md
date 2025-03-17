@@ -67,13 +67,7 @@ Code Structure
 # API URL 
 https://dev-p-zm5f3q.us.auth0.com/oauth/token
 
-# Payload
- { 
-   "grant_type": "client_credentials", 
-   "client_id": "tGgB4XhOVzTIESMteqrNCTXKAYpTkIhC" ,
-   "client_secret": "81xJ2XgiM3YG1BQVR-_ZaFCk2Y4bAZ8uU0v73xJBgMIzAR3S4ASikAaY-TIQ5L9z",
-   "audience": "https://dev-p-zm5f3q.us.auth0.com/api/v2/"
- }  
+
 
 pass the access token returned from the API as bearer token
 ```
